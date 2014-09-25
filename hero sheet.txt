@@ -1,0 +1,448 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 3.2//en">
+<html>
+<head>
+<title>Hero Character Sheet</title>
+</head>
+<body bgcolor="#FFFFFF">
+<table width=100% height=100% style="width: 188mm;" cellpadding=2 border=3 bordercolor="#000000">
+    <tr valign="top">
+		<td width=240 valign="top">
+			
+			<hr>
+			<table width="100%" cellpadding=0 border=0>
+				<tr valign="top">
+					<td align="center"><font size=2><b>Val</b></font></td>
+					<td align="left"><font size=2><b>Char</b></font></td>
+					<td align="center"><font size=2><b>Base</b></font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_STR"/></font></td>
+					<td align="left"><font size=2><b>STR</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_DEX"/></font></td>
+					<td align="left"><font size=2><b>DEX</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+					</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_CON"/></font></td>
+					<td align="left"><font size=2><b>CON</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_BODY"/></font></td>
+					<td align="left"><font size=2><b>BODY</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_INT"/></font></td>
+					<td align="left"><font size=2><b>INT</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_EGO"/></font></td>
+					<td align="left"><font size=2><b>EGO</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_PRE"/></font></td>
+					<td align="left"><font size=2><b>PRE</b></font></td>
+					<td align="center"><font size=2>10</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=2><input type="number" name="attr_OCV"/></font></td>
+					<td align="left"><font size=2><b>OCV</b></font></td>
+					<td align="center"><font size=2>3</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=2><input type="number" name="attr_DCV"/></font></td>
+					<td align="left"><font size=2><b>DCV</b></font></td>
+					<td align="center"><font size=2>3</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=2><input type="number" name="attr_OMCV"/></font></td>
+					<td align="left"><font size=2><b>OMCV</b></font></td>
+					<td align="center"><font size=2>3</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=2><input type="number" name="attr_DMCV"/></font></td>
+					<td align="left"><font size=2><b>DMCV</b></font></td>
+					<td align="center"><font size=2>3</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_PD"/></font></td>
+					<td align="left"><font size=2><b>PD</b></font></td>
+					<td align="center"><font size=2>2</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_ED"/></font></td>
+					<td align="left"><font size=2><b>ED</b></font></td>
+					<td align="center"><font size=2>2</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_rPD"/></font></td>
+					<td align="left"><font size=2><b>rPD</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_rED"/></font></td>
+					<td align="left"><font size=2><b>rED</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_SPD"/></font></td>
+					<td align="left"><font size=2><b>SPD</b></font></td>
+					<td align="center"><font size=2>2</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_REC"/></font></td>
+					<td align="left"><font size=2><b>REC</b></font></td>
+					<td align="center"><font size=2>4</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_END"/></font></td>
+					<td align="left"><font size=2><b>END</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_STUN"/></font></td>
+					<td align="left"><font size=2><b>STUN</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_Run"/></font></td>
+					<td align="left"><font size=2><b>RUN</b></font></td>
+					<td align="center"><font size=2>12</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_Swim"/></font></td>
+					<td align="left"><font size=2><b>SWIM</b></font></td>
+					<td align="center"><font size=2>4</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_Leap"/></font></td>
+					<td align="left"><font size=2><b>LEAP</b></font></td>
+					<td align="center"><font size=2>4</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_tempOCV"/></font></td>
+					<td align="left"><font size=2><b>tempOCV</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_tempDCV"/></font></td>
+					<td align="left"><font size=2><b>tempDCV</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+				<tr valign="top">
+				<td align="center"><font size=2><input type="number" name="attr_tempRange"/></font></td>
+					<td align="left"><font size=2><b>tempRange</b></font></td>
+					<td align="center"><font size=2>0</font></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="100%" cellpadding=0 border=0>
+				<tr valign="top">
+					<td><font size=1><b>STR Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_STRRoll" value="round(@{STR}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{STRRoll})' name='roll_STRCheck' /></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>DEX Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_DEXRoll" value="round(@{DEX}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{DEXRoll})' name='roll_DEXCheck' /></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>CON Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_CONRoll" value="round(@{CON}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{CONRoll})' name='roll_CONCheck' /></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>INT Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_INTRoll" value="round(@{INT}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{INTRoll})' name='roll_INTCheck' /></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>EGO Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_EGORoll" value="round(@{EGO}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{EGORoll})' name='roll_EGOCheck' /></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>PER Roll:&#160;</b></font></td>
+					<td><font size=1><input type="number" name="attr_PERRoll" value="round(@{INT}/5)+9" disabled="true" />-</font></td>
+					<td><font size=1><button type='roll' value='/roll 3d6 - (@{INTRoll})' name='roll_PERCheck' /></font></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="100%" cellpadding=0 border=0>
+				<tr valign="top">
+					<td valign="top" align="left"><font size=2><b>Complications</b></font></td>
+					<td valign="top" align="right"><font size=2><b>Pts</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top" align="left" colspan="2"><fieldset class="repeating_complications"><font size=1><textarea name="attr_complication" style="width:90px;height:18px"/></textarea>
+					&nbsp;<input type="number" name="attr_pts" style="width:40px"/></font><br></fieldset></td>
+				</tr>
+			
+			</fieldset>
+				<tr valign="top">
+					<td>&#160;</td>
+				</tr>
+			</table>
+			<table width="100%" cellpadding=0 border=0>
+				<tr valign="top">
+					<td rowspan=2 valign="top" align="center"><font size=3><b><u>XP</u><br><input type="number" name="XP"/></b></font></td>
+					<td valign="top" align="right"><font size=2><b>Base Points&#160;:&#160;50</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top" align="right"><font size=2><b>Compl. Total&#160;+&#160;25</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td colspan=2 valign="top" align="right"><font size=2><b>Experience Spent&#160;+&#160;<input type="number" name="spentXP"/></b></font></td>
+				</tr>
+				<tr valign="top">
+					<td colspan=2 valign="top" align="right"><font size=2><b>Total Cost&#160;=&#160;<input type="number" name="totalXP"/></b></font></td>
+				</tr>
+			</table>
+		</td>
+		<td width=240 valign="top" align="center">
+			<center><b><font size="2">HERO SYSTEM 6th Ed.</font></b></center>
+			<hr>
+			<table width="100%" cellpadding=0 border=0>
+				<tr valign="top">
+					<td align="right"><font size=2><b>Pts.&#160;</b></font></td>
+					<td align="left"><font size=2><b>Skill/Perk/Talent/Power</b></font></td>
+					<td align="center"><font size=2><b>Roll</b></font></td>
+				</tr>
+			 
+				<tr valign="top">
+					<td valign="top" align="center" colspan="3"><fieldset class="repeating_skills"><font size=1><input type="number" name="attr_skillcost" style="width:40px;"/>&nbsp;<input type="text" name="attr_skillname" style="width:120px;"/>&nbsp;<input type="number" name="attr_skillroll" style="width:40px;"/><br><textarea name="attr_skilldesc" style="height:18px; width:112px;"></textarea></font></fieldset></td>
+				</tr>
+						
+			</table>
+			
+		</td>
+		<td width=240 valign="top">
+			
+			<hr>
+			<table cellpadding=0 border=0>
+				<tr valign="top">
+					<td colspan=5 valign="top" align="center"><font size=2><b>Combat Maneuvers</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1><b>Name</b></font></td>
+					<td valign="top" align="center"><font size=1><b>Phase</b></font></td>
+					<td valign="top" align="center"><font size=1><b>OCV</b></font></td>
+					<td valign="top" align="center"><font size=1><b>DCV</b></font></td>
+					<td valign="top"><font size=1><b>Effect</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Block</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top"><font size=1>Block, Abort</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Brace</font></td>
+					<td valign="top" align="center"><font size=1>0</font></td>
+					<td valign="top" align="center"><font size=1>+2</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top"><font size=1>+2 vs. Range Mod.</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Disarm</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>-2</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top"><font size=1>Can disarm</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Dodge</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>---</font></td>
+					<td valign="top" align="center"><font size=1>+3</font></td>
+					<td valign="top"><font size=1>Abort, vs. all attacks</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Grab</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>-1</font></td>
+					<td valign="top" align="center"><font size=1>-2</font></td>
+					<td valign="top"><font size=1>Grab two limbs</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Grab By</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>-3</font></td>
+					<td valign="top" align="center"><font size=1>-4</font></td>
+					<td valign="top"><font size=1>Move and Grab</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Haymaker</font></td>
+					<td valign="top" align="center"><font size=1>1/2&#42;</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top" align="center"><font size=1>-5</font></td>
+					<td valign="top"><font size=1>+4DC to attack</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Move By</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>-2</font></td>
+					<td valign="top" align="center"><font size=1>-2</font></td>
+					<td valign="top"><font size=1>STR/2 + v/5</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Move Through</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>-v/5</font></td>
+					<td valign="top" align="center"><font size=1>-3</font></td>
+					<td valign="top"><font size=1>STR + v/3</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Set</font></td>
+					<td valign="top" align="center"><font size=1>1</font></td>
+					<td valign="top" align="center"><font size=1>+1</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top"><font size=1>Ranged attacks only</font></td>
+				</tr>
+				<tr valign="top">
+					<td valign="top"><font size=1>Strike</font></td>
+					<td valign="top" align="center"><font size=1>1/2</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top" align="center"><font size=1>+0</font></td>
+					<td valign="top"><font size=1>STR or weapon</font></td>
+				</tr>
+				
+			</table>
+			<hr>
+			<table width="100%" valign="top">
+				<tr valign="top">
+					<td><font size=1><b>Range</b></font></td>
+					<td align="center"><font size=1>0-4</font></td>
+					<td align="center"><font size=1>5-8</font></td>
+					<td align="center"><font size=1>9-16</font></td>
+					<td align="center"><font size=1>17-32</font></td>
+					<td align="center"><font size=1>33-64</font></td>
+					<td align="center"><font size=1>65-128</font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>RMod</b></font></td>
+					<td align="center"><font size=1>0</font></td>
+					<td align="center"><font size=1>-2</font></td>
+					<td align="center"><font size=1>-4</font></td>
+					<td align="center"><font size=1>-6</font></td>
+					<td align="center"><font size=1>-8</font></td>
+					<td align="center"><font size=1>-10</font></td>
+				</tr>
+			</table>
+			
+			<hr>
+			<table width="100%" valign="top">
+				<tr valign="top">
+					<td align="center"><font size=1><b>Roll</b></font></td>
+					<td align="left"><font size=1><b>Location</b></font></td>
+					<td align="center"><font size=1><b>STUNx</b></font></td>
+					<td align="center"><font size=1><b>NSTUN</b></font></td>
+					<td align="center"><font size=1><b>BODYx</b></font></td>
+					<td align="center"><font size=1><b>To Hit</b></font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>3-5</font></td>
+					<td align="left"><font size=1>Head</font></td>
+					<td align="center"><font size=1>x5</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>-8</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>6</font></td>
+					<td align="left"><font size=1>Hands</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>-6</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>7-8</font></td>
+					<td align="left"><font size=1>Arms</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>-5</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>9</font></td>
+					<td align="left"><font size=1>Shoulders</font></td>
+					<td align="center"><font size=1>x3</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>-5</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>10-11</font></td>
+					<td align="left"><font size=1>Chest</font></td>
+					<td align="center"><font size=1>x3</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>-3</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>12</font></td>
+					<td align="left"><font size=1>Stomach</font></td>
+					<td align="center"><font size=1>x4</font></td>
+					<td align="center"><font size=1>x1.5</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>-7</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>13</font></td>
+					<td align="left"><font size=1>Vitals</font></td>
+					<td align="center"><font size=1>x4</font></td>
+					<td align="center"><font size=1>x1.5</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>-8</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>14</font></td>
+					<td align="left"><font size=1>Thighs</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>-4</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>15-16</font></td>
+					<td align="left"><font size=1>Legs</font></td>
+					<td align="center"><font size=1>x2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>-6</font></td>
+				</tr>
+				<tr valign="top">
+					<td align="center"><font size=1>17-18</font></td>
+					<td align="left"><font size=1>Feet</font></td>
+					<td align="center"><font size=1>x1</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>x1/2</font></td>
+					<td align="center"><font size=1>-8</font></td>
+				</tr>
+			</table>
+			<hr>
+			<table width="100%" valign="top">
+				<tr valign="top">
+					<td><font size=1><b>Height:&#160;</b><input type="number" name="height"/></font></td>
+					<td><font size=1><b>Hair:&#160;</b><input type="text" name="hair" style="width: 120px;"/></font></td>
+				</tr>
+				<tr valign="top">
+					<td><font size=1><b>Weight:&#160;</b><input type="number" name="weight"/></font></td>
+					<td><font size=1><b>Eyes:&#160;</b><input type="text" name="eyes" style="width: 120px;"/></font></td>
+				</tr>
+				
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
