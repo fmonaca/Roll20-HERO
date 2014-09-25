@@ -1,4 +1,5 @@
 /*
+Github: Roll20-HERO
 The macro sends the ID or name of the attacker, the ID or name of the defender, and optionally some other modifiers to the script:
 
 attmod     - Default = 0, optional OCV modifier (because of status like SET, BRACE or various types of bonus/malus);
